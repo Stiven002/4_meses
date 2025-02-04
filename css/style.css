@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Roboto", serif;
+}
+
+body{
+    background-color: #ffc8dd;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_img{
+    margin-bottom: 2rem;
+}
+
+.container_botons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container_botons h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container_options{
+    display: flex;
+    gap: 1rem;
+}
+
+.container_options button{
+    background-color: #a7c957;
+    padding: 1rem 3rem; 
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #a7c957;
+    font-size: 20px;
+    color: #fff;
+}
+
+/*4 Meses*/
+.container_text{
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conten_img{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.conten_img img{
+    width: 100%;
+}
+
+.text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text h1{
+    color: #fff;
+}
+
+.container_poema{
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.text img{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px){
+    .container_botons h1{
+        font-size: 2rem;
+    } 
+
+    .container_img img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .container_botons h1{
+        font-size: 1.5rem;
+    } 
+
+    .container_img img{
+        width: 100%;
+    }
+
+    .container_options button{
+        padding: .5rem 2rem; 
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px){
+    .container_botons h1{
+        font-size: 1rem;
+    } 
+
+    .container_img img{
+        width: 100%;
+    }
+
+    .container_options button{
+        padding: .5rem 1.5rem; 
+        font-size: 13px;
+    }
+}
+
+/*4 meses*/
+
+@media (max-width: 1300px) {
+    .conten_img{
+        display: none;
+    }
+
+    .text{
+        width: 100%;
+    }
+}
